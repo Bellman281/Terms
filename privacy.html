@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gizlilik Politikası — Smart Word Game</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #F6F4FB;
+    color: #1E1B4B;
+    line-height: 1.7;
+  }
+  .topbar {
+    background: linear-gradient(135deg, #8E2DE2 0%, #4A1A85 55%, #2A1B4D 100%);
+    color: #fff;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .topbar .home { color: #fff; text-decoration: none; font-size: 14px; opacity: 0.9; }
+  .topbar .home:hover { opacity: 1; }
+  .topbar .switch a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.12);
+    transition: background 0.15s ease;
+  }
+  .topbar .switch a:hover { background: rgba(255,255,255,0.22); }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px 28px 56px;
+    border-radius: 0;
+  }
+  @media (min-width: 720px) {
+    main { margin: 24px auto; border-radius: 14px; padding: 48px 56px 64px; box-shadow: 0 4px 24px rgba(74,26,133,0.06); }
+  }
+  h1 { font-size: 28px; margin: 0 0 4px; color: #2A1B4D; }
+  h2 { font-size: 19px; margin: 32px 0 12px; color: #2A1B4D; border-bottom: 1px solid #E5E1F2; padding-bottom: 6px; }
+  h3 { font-size: 16px; margin: 20px 0 8px; color: #4A1A85; }
+  p, li { font-size: 15px; color: #2A2540; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .meta { color: #635C7B; font-size: 13px; margin-bottom: 24px; }
+  code { background: #F0EBF7; padding: 2px 6px; border-radius: 4px; font-size: 13px; font-family: ui-monospace, Menlo, monospace; }
+  footer { text-align: center; font-size: 12px; color: #8B85A0; padding: 24px; }
+  footer a { color: #8E2DE2; }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <a class="home" href="index.html">← Smart Word Game</a>
+  <div class="switch"><a href="privacy-en.html">English</a></div>
+</div>
+<main>
+  <h1>Gizlilik Politikası</h1>
+  <p class="meta">Son güncelleme: <strong>29 Mayıs 2026</strong> · Veri sorumlusu: Omid Safarzadeh</p>
+
+  <p>Bu Gizlilik Politikası, <strong>Smart Word Game</strong> mobil uygulamasını (bundan sonra "Uygulama") kullandığınızda kişisel verilerinizin nasıl toplandığını, işlendiğini ve korunduğunu açıklar. Politika, <strong>6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK)</strong> ve ilgili ikincil mevzuat çerçevesinde hazırlanmıştır.</p>
+
+  <h2>1. Veri Sorumlusu</h2>
+  <p>
+    Ad Soyad: Omid Safarzadeh<br>
+    İletişim: omidpoly@gmail.com<br>
+    Ülke: Türkiye
+  </p>
+
+  <h2>2. Toplanan Kişisel Veriler</h2>
+  <h3>2.1 Hesap Verileri</h3>
+  <ul>
+    <li>Google veya Apple ile oturum açtığınızda: e-posta adresi, isim, profil görseli (varsa).</li>
+    <li>Seçtiğiniz görünen ad (display name) ve avatar.</li>
+  </ul>
+
+  <h3>2.2 Oyun Verileri</h3>
+  <ul>
+    <li>Maç geçmişi, skorlar, deneyim puanı (XP), seviye, sanal jeton bakiyesi.</li>
+    <li>Oyun içi başarılar ve günlük ödül kayıtları.</li>
+  </ul>
+
+  <h3>2.3 Cihaz ve Teknik Veriler</h3>
+  <ul>
+    <li>Cihaz tanımlayıcısı, işletim sistemi sürümü, uygulama sürümü.</li>
+    <li>IP adresi (sahtekarlık önleme ve coğrafi eşleştirme amacıyla yalnızca geçici olarak).</li>
+    <li>Push bildirimi için Firebase Cloud Messaging (FCM) belirteci.</li>
+  </ul>
+
+  <h3>2.4 Reklam Verileri</h3>
+  <ul>
+    <li>iOS'ta Reklam İzleme Şeffaflığı (ATT) onayı verdiyseniz: Apple IDFA.</li>
+    <li>Android'de: Google Reklam Kimliği (GAID), reklam izleme kapatılmadıysa.</li>
+    <li>Onay vermezseniz, kişiselleştirilmemiş reklamlar gösterilir; reklam bütünüyle devre dışı kalmaz.</li>
+  </ul>
+
+  <h3>2.5 Analitik Veriler</h3>
+  <ul>
+    <li>Firebase Analytics aracılığıyla anonim oturum, ekran görüntüleme ve özellik kullanım verileri.</li>
+  </ul>
+
+  <h2>3. İşleme Amaçları ve Hukuki Sebepler</h2>
+  <p>Verileriniz aşağıdaki amaçlarla, KVKK m.5/2'de belirtilen hukuki sebeplere dayanılarak işlenir:</p>
+  <ul>
+    <li><strong>Hizmetin sunulması</strong> (sözleşmenin ifası): hesap oluşturma, çok oyunculu eşleşme, skor takibi.</li>
+    <li><strong>Güvenlik ve sahtekarlık önleme</strong> (meşru menfaat): hile, otomasyon ve istismarın tespiti.</li>
+    <li><strong>Reklam gösterimi</strong> (açık rıza): rıza veren kullanıcılar için kişiselleştirilmiş reklam.</li>
+    <li><strong>Push bildirimi</strong> (açık rıza): cihaz düzeyinde verdiğiniz bildirim izni ile.</li>
+    <li><strong>Hukuki yükümlülük</strong>: yasal taleplere ve mahkeme kararlarına uyum.</li>
+  </ul>
+
+  <h2>4. Üçüncü Taraf Hizmetler</h2>
+  <p>Uygulama, aşağıdaki üçüncü taraf hizmetlerini kullanır. Bu sağlayıcıların kendi gizlilik politikaları geçerlidir:</p>
+  <ul>
+    <li><strong>Google Firebase</strong> (Authentication, Cloud Messaging, Analytics, Crashlytics) — <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
+    <li><strong>Google AdMob</strong> (reklam sunumu) — <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+    <li><strong>Apple Sign in with Apple</strong> ve push bildirimleri — <a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a></li>
+    <li><strong>Heroic Labs Nakama</strong> sunucu altyapısı (oyun mantığı ve eşleşme) — kendi sunucularımızda barındırılır.</li>
+  </ul>
+
+  <h2>5. Yurt Dışına Veri Aktarımı</h2>
+  <p>Firebase ve AdMob gibi hizmetler, verilerinizi Google'ın ABD ve diğer ülkelerdeki sunucularında işleyebilir. KVKK m.9 uyarınca bu aktarımlar, hizmetin sunulabilmesi için zorunlu olduğundan ve kullanıcının açık rızasına ya da sözleşmenin ifası gerekliliğine dayandığından gerçekleştirilir. Apple hizmetleri için veriler Apple'ın küresel altyapısında işlenir.</p>
+
+  <h2>6. Veri Saklama Süreleri</h2>
+  <ul>
+    <li>Aktif hesap verileri: hesap silinene kadar.</li>
+    <li>Hesap silme talebinden sonra: birincil sistemlerden 30 gün, yedeklerden 90 gün içinde silinir.</li>
+    <li>IP adresleri: en fazla 30 gün.</li>
+    <li>Yasal saklama yükümlülükleri (örn. fatura kayıtları): ilgili mevzuat süresince.</li>
+  </ul>
+
+  <h2>7. KVKK Kapsamındaki Haklarınız</h2>
+  <p>KVKK m.11 uyarınca aşağıdaki haklara sahipsiniz:</p>
+  <ul>
+    <li>Kişisel verilerinizin işlenip işlenmediğini öğrenme,</li>
+    <li>İşlenmişse buna ilişkin bilgi talep etme,</li>
+    <li>İşlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme,</li>
+    <li>Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme,</li>
+    <li>Eksik veya yanlış işlenmişse düzeltilmesini isteme,</li>
+    <li>KVKK m.7'de öngörülen şartlar çerçevesinde silinmesini veya yok edilmesini isteme,</li>
+    <li>Düzeltme/silme işleminin aktarıldığı üçüncü kişilere bildirilmesini isteme,</li>
+    <li>İşlenen verilerin münhasıran otomatik sistemlerle analiz edilmesi suretiyle aleyhinize bir sonucun ortaya çıkmasına itiraz etme,</li>
+    <li>Hukuka aykırı işleme sebebiyle zarara uğramanız hâlinde zararın giderilmesini talep etme.</li>
+  </ul>
+  <p>Bu hakları kullanmak için omidpoly@gmail.com adresine başvurabilirsiniz. Başvurularınız KVKK m.13 uyarınca en geç <strong>30 gün</strong> içinde sonuçlandırılır.</p>
+
+  <h2>8. Çocukların Gizliliği</h2>
+  <p>Uygulama 13 yaş ve üzeri kullanıcılar için tasarlanmıştır. 13 yaşın altındaki bir kullanıcıdan bilerek kişisel veri toplamayız. Çocuğunuzun bize veri sağladığını düşünüyorsanız lütfen iletişime geçin; bu verileri silmek için gerekli adımları atarız.</p>
+
+  <h2>9. Çerezler ve Benzer Teknolojiler</h2>
+  <p>Mobil uygulama tarayıcı çerezi kullanmaz. Ancak Firebase ve AdMob, oturum yönetimi ve reklam ölçümü için cihazda küçük yerel tanımlayıcılar saklayabilir.</p>
+
+  <h2>10. Politikadaki Değişiklikler</h2>
+  <p>Bu politika güncellenebilir. Önemli değişiklikler, uygulama içi bir bildirim ya da e-posta ile size duyurulur. "Son güncelleme" tarihi her güncellemede yenilenir.</p>
+
+  <h2>11. İletişim</h2>
+  <p>
+    Gizlilikle ilgili tüm soru ve talepleriniz için:<br>
+    Omid Safarzadeh · omidpoly@gmail.com
+  </p>
+
+  <p>Ayrıca Kişisel Verileri Koruma Kurulu'na (<a href="https://www.kvkk.gov.tr/">kvkk.gov.tr</a>) şikayette bulunma hakkınız saklıdır.</p>
+
+</main>
+<footer>
+  © <span id="year"></span> Smart Word Game · <a href="index.html">Ana sayfa</a> · <a href="privacy-en.html">English</a>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

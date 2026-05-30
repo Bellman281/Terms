@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Word Game — Legal</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #F6F4FB;
+    color: #1E1B4B;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    background: linear-gradient(135deg, #8E2DE2 0%, #4A1A85 55%, #2A1B4D 100%);
+    color: #fff;
+    padding: 48px 24px 64px;
+    text-align: center;
+  }
+  header .badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 72px;
+    background: #fff;
+    color: #2A1B4D;
+    font-weight: 900;
+    font-size: 38px;
+    border-radius: 14px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    position: relative;
+  }
+  header .badge::after {
+    content: "1";
+    position: absolute;
+    bottom: 6px;
+    right: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #2A1B4D;
+  }
+  header h1 { margin: 0 0 8px; font-size: 28px; font-weight: 700; }
+  header p { margin: 0; opacity: 0.85; font-size: 15px; }
+  main {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 32px 20px 48px;
+    flex: 1;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 8px;
+  }
+  @media (min-width: 600px) {
+    .grid { grid-template-columns: 1fr 1fr; }
+  }
+  .card {
+    background: #fff;
+    border: 1px solid #E5E1F2;
+    border-radius: 14px;
+    padding: 20px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    display: block;
+  }
+  .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(74, 26, 133, 0.12);
+    border-color: #C7BCE8;
+  }
+  .card h2 { margin: 0 0 4px; font-size: 17px; font-weight: 600; color: #2A1B4D; }
+  .card p { margin: 0; font-size: 14px; color: #635C7B; }
+  .card .lang { font-size: 12px; color: #8E2DE2; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; }
+  footer {
+    text-align: center;
+    font-size: 12px;
+    color: #8B85A0;
+    padding: 20px;
+    border-top: 1px solid #E5E1F2;
+    background: #fff;
+  }
+  footer a { color: #8E2DE2; text-decoration: none; }
+</style>
+</head>
+<body>
+<header>
+  <div class="badge">S</div>
+  <h1>Smart Word Game</h1>
+  <p>Legal documents</p>
+</header>
+<main>
+  <h3 style="margin:8px 0 4px; font-size:16px; color:#2A1B4D;">Gizlilik Politikası / Privacy Policy</h3>
+  <div class="grid">
+    <a class="card" href="privacy.html">
+      <div class="lang">Türkçe</div>
+      <h2>Gizlilik Politikası</h2>
+      <p>KVKK kapsamında veri işleme bilgileri.</p>
+    </a>
+    <a class="card" href="privacy-en.html">
+      <div class="lang">English</div>
+      <h2>Privacy Policy</h2>
+      <p>How we collect and use your data.</p>
+    </a>
+  </div>
+
+  <h3 style="margin:32px 0 4px; font-size:16px; color:#2A1B4D;">Kullanım Şartları / Terms of Service</h3>
+  <div class="grid">
+    <a class="card" href="terms.html">
+      <div class="lang">Türkçe</div>
+      <h2>Kullanım Şartları</h2>
+      <p>Hizmeti kullanırken uymanız gereken kurallar.</p>
+    </a>
+    <a class="card" href="terms-en.html">
+      <div class="lang">English</div>
+      <h2>Terms of Service</h2>
+      <p>The rules for using the service.</p>
+    </a>
+  </div>
+</main>
+<footer>
+  © <span id="year"></span> Smart Word Game.
+  <a href="mailto:omidpoly@gmail.com">Contact</a>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
