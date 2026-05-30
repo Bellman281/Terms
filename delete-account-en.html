@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Account Deletion — Smart Word Game</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #F6F4FB;
+    color: #1E1B4B;
+    line-height: 1.7;
+  }
+  .topbar {
+    background: linear-gradient(135deg, #8E2DE2 0%, #4A1A85 55%, #2A1B4D 100%);
+    color: #fff;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .topbar .home { color: #fff; text-decoration: none; font-size: 14px; opacity: 0.9; }
+  .topbar .switch a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.12);
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px 28px 56px;
+  }
+  @media (min-width: 720px) {
+    main { margin: 24px auto; border-radius: 14px; padding: 48px 56px 64px; box-shadow: 0 4px 24px rgba(74,26,133,0.06); }
+  }
+  h1 { font-size: 28px; margin: 0 0 16px; color: #2A1B4D; }
+  h2 { font-size: 19px; margin: 28px 0 12px; color: #2A1B4D; border-bottom: 1px solid #E5E1F2; padding-bottom: 6px; }
+  p, li { font-size: 15px; color: #2A2540; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .cta {
+    display: inline-block;
+    background: #8E2DE2;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-weight: 700;
+    margin: 8px 0;
+  }
+  .cta:hover { background: #4A1A85; }
+  pre {
+    background: #F0EBF7;
+    padding: 14px 16px;
+    border-radius: 10px;
+    border-left: 3px solid #8E2DE2;
+    font-size: 13px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #2A1B4D;
+  }
+  footer { text-align: center; font-size: 12px; color: #8B85A0; padding: 24px; }
+  footer a { color: #8E2DE2; }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <a class="home" href="index.html">← Smart Word Game</a>
+  <div class="switch"><a href="delete-account.html">Türkçe</a></div>
+</div>
+<main>
+  <h1>Account &amp; Data Deletion</h1>
+
+  <p>You can delete your Smart Word Game account and all associated personal data at any time. Under KVKK Article 7 (Turkey's data protection law), deletion requests are honoured within <strong>30 days</strong> for primary systems and <strong>90 days</strong> for backups.</p>
+
+  <h2>1. Delete from inside the app (recommended)</h2>
+  <p>Fastest path — works while the app is installed on your device.</p>
+  <ul>
+    <li>Open the <strong>Profile</strong> tab from the bottom bar.</li>
+    <li>Tap the ⚙️ <strong>Settings</strong> icon in the top-right.</li>
+    <li>Scroll to the bottom and tap <strong>Delete Account</strong>.</li>
+    <li>Confirm in the dialog. You will be signed out automatically and your data is flagged for deletion.</li>
+  </ul>
+
+  <h2>2. Request deletion by email</h2>
+  <p>If you no longer have access to the app (e.g. you lost your device), send a deletion request from the email address you signed up with:</p>
+  <p><a class="cta" href="mailto:omidpoly@gmail.com?subject=Account%20Deletion%20Request%20%E2%80%94%20Smart%20Word%20Game">Email omidpoly@gmail.com</a></p>
+
+  <p>To help us identify your account, include the following (copy and fill in):</p>
+  <pre>Subject: Account Deletion Request — Smart Word Game
+
+I request the deletion of my account and all associated personal
+data under KVKK Article 7.
+
+• Registered email address: ___________
+• Display name in app: ___________
+• Signed in with Apple or Google: ___________
+
+Date: ___________</pre>
+
+  <h2>3. Data we will delete</h2>
+  <p>The following data is permanently removed on request:</p>
+  <ul>
+    <li>Account info (email, display name, profile picture, avatar).</li>
+    <li>Gameplay data (match history, scores, XP, level, virtual-coin balance).</li>
+    <li>Achievements and daily-reward records.</li>
+    <li>Device identifier and push-notification token.</li>
+    <li>Friends list and invite records.</li>
+  </ul>
+
+  <h2>4. Data we may retain</h2>
+  <p>Some data may continue to be retained where applicable law requires it:</p>
+  <ul>
+    <li>In-app purchase records (5 years under Turkish tax law).</li>
+    <li>Data subject to a legal or administrative claim (for the duration of the claim).</li>
+  </ul>
+
+  <h2>5. Timeline</h2>
+  <ul>
+    <li>Removal from primary systems: within <strong>30 days</strong>.</li>
+    <li>Removal from backups: within <strong>90 days</strong>.</li>
+    <li>You receive a confirmation email once the deletion is complete.</li>
+  </ul>
+
+  <h2>6. Contact</h2>
+  <p>For questions or follow-up: <a href="mailto:omidpoly@gmail.com">omidpoly@gmail.com</a></p>
+  <p>For your other rights under KVKK, see section 7 of our <a href="privacy-en.html">Privacy Policy</a>.</p>
+</main>
+<footer>
+  © <span id="year"></span> Smart Word Game · <a href="index.html">Home</a> · <a href="privacy-en.html">Privacy</a> · <a href="terms-en.html">Terms</a>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

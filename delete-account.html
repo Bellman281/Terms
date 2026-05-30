@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hesap Silme — Smart Word Game</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #F6F4FB;
+    color: #1E1B4B;
+    line-height: 1.7;
+  }
+  .topbar {
+    background: linear-gradient(135deg, #8E2DE2 0%, #4A1A85 55%, #2A1B4D 100%);
+    color: #fff;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .topbar .home { color: #fff; text-decoration: none; font-size: 14px; opacity: 0.9; }
+  .topbar .switch a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 6px 12px;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.12);
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px 28px 56px;
+  }
+  @media (min-width: 720px) {
+    main { margin: 24px auto; border-radius: 14px; padding: 48px 56px 64px; box-shadow: 0 4px 24px rgba(74,26,133,0.06); }
+  }
+  h1 { font-size: 28px; margin: 0 0 16px; color: #2A1B4D; }
+  h2 { font-size: 19px; margin: 28px 0 12px; color: #2A1B4D; border-bottom: 1px solid #E5E1F2; padding-bottom: 6px; }
+  p, li { font-size: 15px; color: #2A2540; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .cta {
+    display: inline-block;
+    background: #8E2DE2;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 10px;
+    font-weight: 700;
+    margin: 8px 0;
+  }
+  .cta:hover { background: #4A1A85; }
+  pre {
+    background: #F0EBF7;
+    padding: 14px 16px;
+    border-radius: 10px;
+    border-left: 3px solid #8E2DE2;
+    font-size: 13px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #2A1B4D;
+  }
+  footer { text-align: center; font-size: 12px; color: #8B85A0; padding: 24px; }
+  footer a { color: #8E2DE2; }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <a class="home" href="index.html">← Smart Word Game</a>
+  <div class="switch"><a href="delete-account-en.html">English</a></div>
+</div>
+<main>
+  <h1>Hesap ve Veri Silme</h1>
+
+  <p>Smart Word Game'de hesabınızı ve ilişkili tüm kişisel verilerinizi istediğiniz zaman silebilirsiniz. KVKK m.7 uyarınca silme talebiniz <strong>30 gün</strong> içinde, yedeklerden ise <strong>90 gün</strong> içinde tamamlanır.</p>
+
+  <h2>1. Uygulama içinden silme (önerilen)</h2>
+  <p>En hızlı yöntem: uygulama açıkken aşağıdaki adımları izleyin.</p>
+  <ul>
+    <li>Alt menüden <strong>Profil</strong> sekmesine gidin.</li>
+    <li>Sağ üstteki ⚙️ <strong>Ayarlar</strong> simgesine dokunun.</li>
+    <li>Listenin en altında <strong>Hesabı Sil</strong> seçeneğine dokunun.</li>
+    <li>Onay penceresinde <strong>Sil</strong>'i seçin. Hesabınızdan otomatik çıkış yapılır ve veriler işaretlenir.</li>
+  </ul>
+
+  <h2>2. E-posta ile silme talebi</h2>
+  <p>Uygulamaya erişiminiz yoksa (örn. cihazınız çalındıysa) aşağıdaki adrese kayıtlı e-postanızdan başvurun:</p>
+  <p><a class="cta" href="mailto:omidpoly@gmail.com?subject=Hesap%20Silme%20Talebi%20%E2%80%94%20Smart%20Word%20Game">omidpoly@gmail.com adresine yaz</a></p>
+
+  <p>Tanımlanmanızı kolaylaştırmak için aşağıdaki bilgileri ekleyin (kopyalayıp doldurabilirsiniz):</p>
+  <pre>Konu: Hesap Silme Talebi — Smart Word Game
+
+Hesabımın ve tüm ilişkili verilerimin KVKK m.7 uyarınca
+silinmesini talep ediyorum.
+
+• Kayıtlı e-posta adresim: ___________
+• Görünen adım (display name): ___________
+• Apple ID / Google ile mi giriş yapıyordum: ___________
+
+Tarih: ___________</pre>
+
+  <h2>3. Silinen veriler</h2>
+  <p>Talep üzerine aşağıdaki veriler kalıcı olarak silinir:</p>
+  <ul>
+    <li>Hesap bilgileri (e-posta, görünen ad, profil resmi, avatar).</li>
+    <li>Oyun verileri (maç geçmişi, skorlar, XP, seviye, jeton bakiyesi).</li>
+    <li>Oyun içi başarılar ve günlük ödül kayıtları.</li>
+    <li>Cihaz tanımlayıcısı ve push bildirim belirteci.</li>
+    <li>Arkadaş listesi ve davet kayıtları.</li>
+  </ul>
+
+  <h2>4. Saklanmaya devam eden veriler</h2>
+  <p>Yürürlükteki yasaların gerektirdiği bazı veriler, kanunda öngörülen süre boyunca saklanmaya devam edebilir:</p>
+  <ul>
+    <li>Uygulama içi satın alım kayıtları (Türk Vergi Mevzuatı gereği 5 yıl).</li>
+    <li>Yasal/idari taleplere konu olan veriler (talep süresi boyunca).</li>
+  </ul>
+
+  <h2>5. Zamanlama</h2>
+  <ul>
+    <li>Birincil sistemlerden silme: en geç <strong>30 gün</strong>.</li>
+    <li>Yedeklerden silme: en geç <strong>90 gün</strong>.</li>
+    <li>Tamamlanan silmeler için onay e-postası alırsınız.</li>
+  </ul>
+
+  <h2>6. İletişim</h2>
+  <p>Soru ve takip için: <a href="mailto:omidpoly@gmail.com">omidpoly@gmail.com</a></p>
+  <p>KVKK kapsamındaki diğer haklarınız için <a href="privacy.html">Gizlilik Politikamızın</a> 7. bölümüne bakın.</p>
+</main>
+<footer>
+  © <span id="year"></span> Smart Word Game · <a href="index.html">Ana sayfa</a> · <a href="privacy.html">Gizlilik</a> · <a href="terms.html">Şartlar</a>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
